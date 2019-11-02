@@ -44,6 +44,9 @@ article>img{
 	display:block;
 	width:80%;
 	margin:2% auto;
+	-webkit-filter:drop-shadow(2px 2px 2px #02010a);
+	-o-filter:drop-shadow(2px 2px 2px #02010a);
+	-moz-filter:drop-shadow(2px 2px 2px #02010a);
 	filter:drop-shadow(2px 2px 2px #02010a);
 }
 #Seccion2{
@@ -68,6 +71,9 @@ article>img{
 	transition-property:transform, drop-shadow;
 	transition-duration:1s, 1s;
 	transform:rotate(10deg);
+	-webkit-filter:drop-shadow(2px 2px 2px #82c3a6);
+	-o-filter:drop-shadow(2px 2px 2px #82c3a6);
+	-moz-filter:drop-shadow(2px 2px 2px #82c3a6);
 	filter:drop-shadow(2px 2px 2px #82c3a6);
 	border:2px solid black;
 }
@@ -75,6 +81,9 @@ article>img{
 	transition-property:transform, drop-shadow;
 	transition-duration:0.5s, 1s;
 	transform:translate(20px,-5px);
+	-webkit-filter:drop-shadow(2px 2px 2px #82c3a6);
+	-o-filter:drop-shadow(2px 2px 2px #82c3a6);
+	-moz-filter:drop-shadow(2px 2px 2px #82c3a6);
 	filter:drop-shadow(2px 2px 2px #82c3a6);
 	border: 2px solid black;
 }
